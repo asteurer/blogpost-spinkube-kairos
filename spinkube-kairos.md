@@ -25,7 +25,8 @@ This is a guide that will help you get started running Spin applications on Kair
 
 [Kairos](https://kairos.io/) is a Linux meta-distribution, which means it adds powerful features to distributions you are already familiar with. Here are some of the features it has to offer:
 - **Container-based**: You can manage node configurations from an OCI container.
-- **Immutable**: Certain paths of the system are not writable (helpful for keeping edge devices secure), and uses atomic upgrades (partial upgrades are not allowed, which means predictable results for mass-updates).
+- **Immutable**: Certain paths of the system are not writable, which is helpful for keeping edge devices secure. Some parts of the system are layered over, so you can make 'runtime' changes that don't survive after a reboot.
+- **Atomic Upgrades**: Partial upgrades are not allowed, which means predictable results for mass-updates.
 - **Distribution-agnostic**: You can bring your own Linux distribution and convert it to Kairos.
 
 ## How to run SpinKube on Kairos
