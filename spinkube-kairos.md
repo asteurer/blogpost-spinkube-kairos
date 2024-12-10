@@ -19,7 +19,7 @@ This is a guide that will help you get started running Spin applications on Kair
 
 ## What is SpinKube?
 
-[SpinKube](https://spinkube.dev) is is an open source project that makes it easy to run WebAssembly applications on Kubernetes. If you're new to WebAssembly, I recommend taking a look at the documentation for [Spin](https://www.fermyon.com/spin) (Fermyon's WebAssembly framework).
+[SpinKube](https://spinkube.dev) is is an open source project that makes it easy to run WebAssembly applications on Kubernetes. If you're new to WebAssembly, I recommend taking a look at the introduction to [Spin](https://developer.fermyon.com/spin/v3/index) (Fermyon's WebAssembly framework).
 
 ## What is Kairos
 
